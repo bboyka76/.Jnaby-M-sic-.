@@ -207,7 +207,7 @@ function play(guild, song) {
 }
 
 client.on('message', message => {
-    var prefix = "+";
+    var prefix = "j";
     
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
@@ -223,8 +223,8 @@ client.on('message', message => {
     
      
     if (message.content.startsWith(prefix + 'streem')) {
-    if (message.author.id !== '411564557027508235') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
-    client.user.setGame(argresult, "http://twitch.tv/HP");
+    if (message.author.id !== '323160008411971585') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+    client.user.setGame(argresult, "http://twitch.tv/HA");
         message.channel.sendMessage(`**${argresult}** :تم تغيير الحالة الى ستريمنج`)
     } else
     
